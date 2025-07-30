@@ -62,7 +62,7 @@ npm install
 3. Install frontend dependencies
 
 ```bash
-cd frontend
+cd goldPOS
 npm install
 ```
 
@@ -71,20 +71,25 @@ npm install
 ```env
 MONGO_URI=your_mongo_db_url
 JWT_SECRET=your_jwt_secret
-PORT=5000
 ```
 
-5. Start the backend server
+5. Create a `.env` file in `goldPOS/` with your environment variables:
+
+```env
+VITE_API_BASE_URL=base_url
+```
+
+6. Start the backend server
 
 ```bash
 cd ../backend
 nodemon server.js
 ```
 
-6. Start the frontend app
+7. Start the frontend app
 
 ```bash
-cd ../frontend
+cd ../goldPOS
 npm run dev
 ```
 
