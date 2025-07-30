@@ -14,7 +14,7 @@
 
 ## 📦 About The Project
 
-[![Product Screenshot][product-screenshot]](https://github.com/shareen-faisal/auric-gold-pos)
+[![Product Screenshot](screenshots/about.png)](https://github.com/shareen-faisal/auric-gold-pos)
 
 **Auric POS** is a robust point of sale system tailored for **gold and jewelry businesses**. It offers tools for managing sales, customers, inventory, and daily gold price fluctuations — all through a sleek and responsive web interface.
 
