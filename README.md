@@ -114,6 +114,49 @@ Auric POS is live at:
 
 ---
 
+## 📸 System Screenshots
+
+<details>
+<summary>🏠 Website Pages</summary>
+
+### About Page
+![About](screenshots/about.png)
+
+### About Us Section
+![About Us](screenshots/aboutus.png)
+
+### FAQs
+![FAQs](screenshots/faqs.png)
+
+### Testimonials
+![Testimonials](screenshots/testimonials.png)
+
+### Pricing Page
+![Pricing](screenshots/pricing.png)
+
+</details>
+
+<details>
+<summary>📊 POS</summary>
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Admin Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Customers View
+![Customers](screenshots/customers.png)
+
+### Retailers View
+![Retailers](screenshots/retailers.png)
+
+### Order Form
+![Form](screenshots/Form.png)
+
+</details>
+
+
 ## 📧 Contact
 
 **Shareen Faisal**  
