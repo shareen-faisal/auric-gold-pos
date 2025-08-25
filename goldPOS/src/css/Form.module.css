@@ -8,6 +8,40 @@
   max-width: 100%;
 }
 
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 999;
+}
+
+.formTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #edaa2e;
+  padding-bottom: 1rem;
+}
+
 .formRow {
   display: flex;
   justify-content:flex-start;
@@ -68,6 +102,12 @@
   outline-color: #dfb15b;
 }
 
+.inputGroup input[readonly],
+.inputGroup textarea[readonly] {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
 .inputGroup textarea {
   padding: 0.6rem 1rem;
   font-size: 1rem;
@@ -89,6 +129,7 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+  gap: 1rem;
 }
 
 .submitButton {
@@ -117,4 +158,65 @@
   border-radius: 0.5rem;
   outline-color: #dfb15b;
   background-color: #fff;
+  background-color: #f0f0f0;
+  cursor: not-allowed;
 }
+
+.cancelButton {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #ccc;
+  border: none;
+  border-radius: 0.5rem;
+  color: #666;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancelButton:hover {
+  background-color: #b3b3b3;
+}
+
+
+.inputError {
+  border-color: #c62828; /* A darker red for the border */
+}
+
+.inputError:focus {
+  outline-color: #c62828;
+}
+
+.errorText {
+  color: #c62828;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  display: block;
+}
+
+.errorMessage {
+  background-color: #fcebeb;
+  color: #c62828;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.successMessage {
+  background-color: #d4f8e8;
+  color: #2e7d32;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+

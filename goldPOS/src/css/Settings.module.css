@@ -1,3 +1,38 @@
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #dfb15b;
+  box-shadow: 0 0 0 2px rgba(223, 177, 91, 0.2);
+}
+
+.errorText {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.successText {
+  color: #2ecc71;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+form label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #888;
+  margin-bottom: 4px;
+  display: block;
+}
 .container {
   width: 100%;
   padding: 1rem;
@@ -17,6 +52,7 @@
 .title {
   font-size: 1.5rem;
   font-weight: 600;
+  margin-bottom: 1rem;
   color: #888;
 }
 
@@ -186,6 +222,7 @@
 
 .label {
   font-size: 0.75rem;
+  text-align: left;
   color: #888;
 }
 
@@ -233,16 +270,6 @@
   display: inline-block;
   text-align: center;
   width: fit-content;
-}
-
-.inStock {
-  background-color: #d4f8e8;
-  color: #2e7d32;
-}
-
-.outOfStock {
-  background-color: #fff4cc;
-  color: #f57c00;
 }
 
 .complete {
