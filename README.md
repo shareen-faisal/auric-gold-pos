@@ -4,7 +4,7 @@
   <h2 align="center">💰 Auric POS – Gold Business Point of Sale System</h2>
 
   <p align="center">
-    A full-stack web application designed to streamline gold trading and inventory management for jewelers.
+    A full-stack web application designed to streamline gold order and stock management for jewelers.
     <br />
     <br />
   </p>
@@ -14,11 +14,13 @@
 
 ## 📦 About The Project
 
-[![Product Screenshot](screenshots/about.png)](https://github.com/shareen-faisal/auric-gold-pos)
-
-**Auric POS** is a robust point of sale system tailored for **gold and jewelry businesses**. It offers tools for managing sales, customers, inventory, and daily gold price fluctuations — all through a sleek and responsive web interface.
+**Auric POS** is a robust point of sale system tailored for **gold businesses**. It offers tools for managing sales, customers, inventory, and daily gold price fluctuations — all through a sleek and responsive web interface.
 
 The platform is ideal for shops needing transparent, real-time control over their operations, with built-in authentication, role-based access, and detailed reporting.
+
+[![Product Screenshot](screenshots/about.png)](https://github.com/shareen-faisal/auric-gold-pos)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,6 +115,49 @@ Auric POS is live at:
 👉 [**http://www.auricpos.com/**](http://www.auricpos.com/)
 
 ---
+
+## 📸 System Screenshots
+
+<details>
+<summary>🏠 Website Pages</summary>
+
+### About Page
+![About](screenshots/about.png)
+
+### About Us Section
+![About Us](screenshots/aboutus.png)
+
+### FAQs
+![FAQs](screenshots/faqs.png)
+
+### Testimonials
+![Testimonials](screenshots/testimonials.png)
+
+### Pricing Page
+![Pricing](screenshots/pricing.png)
+
+</details>
+
+<details>
+<summary>📊 POS</summary>
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Admin Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Customers View
+![Customers](screenshots/customers.png)
+
+### Retailers View
+![Retailers](screenshots/retailers.png)
+
+### Order Form
+![Form](screenshots/Form.png)
+
+</details>
+
 
 ## 📧 Contact
 
